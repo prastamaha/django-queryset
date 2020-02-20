@@ -26,7 +26,9 @@ customerById = Customer.objects.get(id=4)
 ```
 
 ## (6)Returns all orders related to customer (firstCustomer variable set above)
+```
 firstCustomer.order_set.all()
+```
 
 ## (7)Returns orders customer name: (Query parent model values)
 ```
