@@ -1,5 +1,21 @@
 # django query set
 
+
+```
+STRUCTURE
+
+        queryset = Customer.objects.all()
+            |          |       |      |
+            |          |       |      |_ Method [ .get(), .filter(), exclude() ]
+         variable      |       |
+                       |       |_ Model Objects 
+                       |            Attribute
+                       |
+                       |_ Model Name        
+
+
+```
+
 ## (1)Returns all customers from customer table
 ```
 customers = Customer.objects.all()
